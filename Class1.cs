@@ -105,7 +105,7 @@ namespace MyWork
         #endregion
 
         /// <summary>
-        /// 演習問題2
+        /// 演習問題4
         /// </summary>
         /// <returns></returns>
         internal static string Work04()
