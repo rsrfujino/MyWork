@@ -119,5 +119,29 @@ namespace MyWork
             return result;
         }
 
+        /// <summary>
+        /// 演習問題5
+        /// </summary>
+        /// <returns></returns>
+        internal static string Work05()
+        {
+            var result = string.Empty;
+            var stb = new StringBuilder();
+
+            for(int lpCnt = 1; lpCnt <= 100; lpCnt++)
+            {
+                if((lpCnt % 3) == 0)
+                {
+                    stb.AppendLine(lpCnt.ToString());
+                }
+                else if(lpCnt.ToString().IndexOf('3') != -1)
+                {
+                    stb.AppendLine(lpCnt.ToString());
+                }
+            }
+            result = stb.ToString();
+            return result;
+        }
+
     }
 }
