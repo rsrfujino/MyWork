@@ -371,7 +371,7 @@ namespace MyWork
                 list1.RemoveAll(x =>x % currentNum == 0);
                 results.Add(currentNum);
 
-                if(!list1.Any() || currentNum >= list1.Max())
+                if(!list1.Any())
                 {
                     isLoop = false;
                 }
@@ -381,6 +381,50 @@ namespace MyWork
 
             result = stb.ToString();
             return result;
+        }
+
+        /// <summary>
+        /// 演習問題15
+        /// </summary>
+        /// <returns></returns>
+        internal static string Work15()
+        {
+            var result = string.Empty;
+            var stb = new StringBuilder();
+
+            var ram = new Random();
+            var num = ram.Next(2, 10000);
+            var results = new List<int>();
+            var currentNum = num;
+            for (int i = 2; i <= num; i++)
+            {
+                currentNum = Work15Sub(currentNum, i, results);
+                if(currentNum < i )
+                {
+                    break;
+                }
+            }
+
+            stb.AppendLine(string.Format("数値 {0}", num));
+            stb.AppendLine(string.Format("配列 {0}", string.Join(' ', results)));
+
+            result = stb.ToString();
+            return result;
+        }
+
+        /// <summary>
+        /// 演習問題15Sub
+        /// </summary>
+        /// <returns></returns>
+        internal static int Work15Sub(int targetNum, int num,List<int> results)
+        {
+            if(targetNum % num != 0)
+            {
+                return targetNum;
+            }
+
+            results.Add(num);
+            return Work15Sub(targetNum / num, num, results); ;
         }
     }
 }

@@ -25,14 +25,17 @@ using MyWork;
 //Console.WriteLine("演習問題10");
 //Console.WriteLine(Class1.Work10());
 
-Console.WriteLine("演習問題11");
-Console.WriteLine(Class1.Work11());
+//Console.WriteLine("演習問題11");
+//Console.WriteLine(Class1.Work11());
 
-Console.WriteLine("演習問題12");
-Console.WriteLine(Class1.Work12());
+//Console.WriteLine("演習問題12");
+//Console.WriteLine(Class1.Work12());
 
-Console.WriteLine("演習問題13");
-Console.WriteLine(Class1.Work13());
+//Console.WriteLine("演習問題13");
+//Console.WriteLine(Class1.Work13());
 
-Console.WriteLine("演習問題14");
-Console.WriteLine(Class1.Work14());
+//Console.WriteLine("演習問題14");
+//Console.WriteLine(Class1.Work14());
+
+Console.WriteLine("演習問題15");
+Console.WriteLine(Class1.Work15());
