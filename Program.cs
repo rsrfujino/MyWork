@@ -10,9 +10,10 @@ Console.WriteLine("演習問題2");
 Console.WriteLine(Class1.Work02());
 
 Console.WriteLine("演習問題3");
-Console.WriteLine(Class1.Work03(5));
+Console.WriteLine(Class1.Work03(6));
 
-
+Console.WriteLine("演習問題4");
+Console.WriteLine(Class1.Work04());
 
 
 

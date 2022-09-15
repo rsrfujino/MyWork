@@ -83,6 +83,7 @@ namespace MyWork
             return result;
         }
 
+        #region 演習問題3
         /// <summary>
         /// 演習問題3
         /// </summary>
@@ -101,5 +102,22 @@ namespace MyWork
 
             return input * Work03Sub( input - 1);
         }
+        #endregion
+
+        /// <summary>
+        /// 演習問題2
+        /// </summary>
+        /// <returns></returns>
+        internal static string Work04()
+        {
+            var result = string.Empty;
+
+            var ram = new Random();
+            var resultNum = ram.Next(1, 1000);
+
+            result = String.Format("{0} 桁数{1}", resultNum, resultNum.ToString().Length);
+            return result;
+        }
+
     }
 }
