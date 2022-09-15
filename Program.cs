@@ -19,5 +19,7 @@ Console.WriteLine("演習問題5");
 Console.WriteLine(Class1.Work05());
 
 
+Console.WriteLine("演習問題5");
+Console.WriteLine(Class1.Work05());
 
 
