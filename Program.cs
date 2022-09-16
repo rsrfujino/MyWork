@@ -39,3 +39,17 @@ using MyWork;
 
 Console.WriteLine("演習問題15");
 Console.WriteLine(Class1.Work15());
+
+Console.WriteLine("演習問題16");
+Console.WriteLine(Class1.Work16());
+
+Console.WriteLine("演習問題16 手抜き");
+Console.WriteLine(Class1.Work16_2());
+
+Console.WriteLine("演習問題17");
+Console.WriteLine(Class1.Work17());
+
+Console.WriteLine("演習問題18");
+Console.WriteLine(Class1.Work18());
+
+
